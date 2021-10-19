@@ -43,11 +43,11 @@ image.addEventListener("mouseout", function () {
 
 //----------------------------------
 
-const input1 = document
-  .getElementById("input1")
-  .addEventListener("change", function () {
+const input = document.querySelectorAll("input").forEach((input) => {
+  input.addEventListener("change", function () {
     alert("you entered Data");
   });
+});
 
 //--------------------------------
 
