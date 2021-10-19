@@ -1,3 +1,33 @@
+//btn1
+hdBtn = document.getElementById("headingBtn");
+hdBtn.addEventListener("click", function () {
+  //button function
+});
+
+//btn2
+pBtn = document.getElementById("pBtn");
+pBtn.addEventListener("click", function () {
+  //button function
+});
+
+//btn3
+bgBtn = document.getElementById("bgHBtn");
+bgBtn.addEventListener("click", function () {
+  //button function
+});
+
+//btn4
+imgBtn = document.getElementById("imgBtn");
+imgBtn.addEventListener("click", function () {
+  //button function
+});
+
+//btn5
+altBtn = document.getElementById("alterBtn");
+altBtn.addEventListener("click", function () {
+  //button function
+});
+
 //-----------------------------
 
 // hideImg
