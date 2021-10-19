@@ -1,15 +1,6 @@
-// const clicked = (e) => {
-//   console.log(e.target);
-// };
-
-// const sizeBtn = document.querySelector("#bgHighlightBtn");
-// sizeBtn.forEach((element) => {
-//   element.addEventListeners("click", clicked);
-// });
-
 //-----------------------------
 
-// const hideImg = document.querySelector("img").addEventListener("mouseenter", c);
+// hideImg
 
 image = document.getElementById("img1");
 
@@ -24,7 +15,7 @@ image.addEventListener("mouseout", function () {
 
 const input1 = document
   .getElementById("input1")
-  .addEventListener("click", function () {
+  .addEventListener("change", function () {
     alert("you entered Data");
   });
 
@@ -36,10 +27,10 @@ window.onload = function () {
 
 //----------------------------------
 
-praghraph = document.getElementById("p");
-praghraph.addEventListener("mouseover", function () {
-  praghraph.style.Color = "lightblue";
+paraghraph = document.getElementsByClassName(".praghraph");
+paraghraph.addEventListener("mouseover", function () {
+  paraghraph.style.Color = "lightblue";
 });
-praghraph.addEventListener("mouseout", function () {
-  praghraph.style.Color = "none";
+paraghraph.addEventListener("mouseout", function () {
+  paraghraph.style.Color = "none";
 });
