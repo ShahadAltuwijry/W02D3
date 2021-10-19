@@ -13,8 +13,6 @@
 
 image = document.getElementById("img1");
 
-//Now, we need to add an Event Listener to listen when the image gets mouse over.
-
 image.addEventListener("mouseover", function () {
   image.src = "./icon2.png";
 });
@@ -40,8 +38,8 @@ window.onload = function () {
 
 praghraph = document.getElementById("p");
 praghraph.addEventListener("mouseover", function () {
-  praghraph.style.backGroundColor = "lightblue";
+  praghraph.style.Color = "lightblue";
 });
 praghraph.addEventListener("mouseout", function () {
-  praghraph.style.backGroundColor = "none";
+  praghraph.style.Color = "none";
 });
