@@ -57,10 +57,18 @@ window.onload = function () {
 
 //----------------------------------
 
-paraghraph = document.getElementsByClassName(".praghraph");
-paraghraph.addEventListener("mouseover", function () {
-  paraghraph.style.Color = "lightblue";
+let p = document.querySelectorAll("p").forEach((p) => {
+  p.addEventListener("mouseover", function () {
+    p.style.backgroundColor = "lightblue";
+  });
+
+  p.addEventListener("mouseout", function () {
+    p.style.backgroundColor = "white";
+  });
 });
-paraghraph.addEventListener("mouseout", function () {
-  paraghraph.style.Color = "none";
-});
+// paraghraph.addEventListener("mouseover", function () {
+//   paraghraph.style.Color = "lightblue";
+// });
+// paraghraph.addEventListener("mouseout", function () {
+//   paraghraph.style.Color = "none";
+// });
