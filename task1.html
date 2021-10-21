@@ -1,38 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="container">
-      <h1 id="headingOne">Hello Friend!</h1>
-      <p class="p" id="p1">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body style="display: flex; justify-content: center;">
+  <div class=" container">
+    <h1 id="h1" style="text-align: center;">Hello Friend!</h1>
+    <div id="paragraph">
+      <p id="p1" style="text-align: center;">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
         sapiente illum deserunt at possimus exercitationem!
       </p>
-      <p class="p" id="p1">
+      <p id="p1" style="text-align: center;">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores.
       </p>
-      <input
-        class="inputs"
-        id="input1"
-        placeholder="Date Input"
-        value=""
-        type="text"
-      />
+    </div>
+    <div class="center" style="text-align: center; justify-content: space-evenly;">
+      <img src="./icons8-sun-96.png" id="img1" onclick="alert('you clicked an img')" />
+      <br />
+      <input class="inputs" id="input1" placeholder="Date Input" value="" type="text" style="margin-top: 20px; " />
 
       <input class="inputs" id="input2" placeholder="2nd Data input" />
+      <br>
+      <img id="img2" src="./icons8-multiple-stars-48.png" style="margin-top: 40px; margin-bottom: -50px; ">
+      <img id="img3" src="./icons8-onedrive-48.png" style="margin-top: 40px; margin-bottom: -50px;">
 
-      <img src="./icon.png" id="img1" onclick="alert('you clicked an img')" />
-      <button id="headingBtn">heading size</button>
-      <button id="pBtn">p style</button>
-      <button id="bgHBtn">highlight p bg</button>
-      <button id="imgBtn">Hide img</button>
-      <button id="alterBtn">alter</button>
-      <script src="./task1.js"></script>
     </div>
-  </body>
+    <div class="btns" style="display: flex; justify-content: space-evenly; margin-top: 100px;">
+      <button id="headingBtn">Head Size+</button>
+      <button id="pBtn">Text Style</button>
+      <button id="bgHBtn">BG Highlight</button>
+      <button id="imgBtn">Hide Photo</button>
+      <button id="alterBtn">alter</button>
+    </div>
+    <script src="./task1.js"></script>
+  </div>
+</body>
+
 </html>

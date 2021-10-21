@@ -1,32 +1,37 @@
-//btn1
-hdBtn = document.getElementById("headingBtn");
-hdBtn.addEventListener("click", function () {
-  //button function
+// button functions
+
+// let headingSize() = => ({
+//   headingOne.forEach((index) => {
+//     index.style.fontsize = "";
+//   })
+// });
+
+//header size button
+
+headingBtn.addEventListener("click", () => {
+  document.getElementById("h1").style.fontSize = "500%";
 });
 
-//btn2
-pBtn = document.getElementById("pBtn");
-pBtn.addEventListener("click", function () {
-  //button function
+//font style button
+pBtn.addEventListener("click", () => {
+  document.getElementById("paragraph").style.fontFamily = "fantasy";
 });
 
-//btn3
-bgBtn = document.getElementById("bgHBtn");
-bgBtn.addEventListener("click", function () {
-  //button function
+//highlight button
+bgHBtn.addEventListener("click", () => {
+  document.getElementById("paragraph").style.backgroundColor = "gold";
 });
 
-//btn4
-imgBtn = document.getElementById("imgBtn");
+//hiding the img button
 imgBtn.addEventListener("click", function () {
-  //button function
+  document.getElementById("img1").style.display = "none";
 });
 
-//btn5
-altBtn = document.getElementById("alterBtn");
-altBtn.addEventListener("click", function () {
-  //button function
-});
+//altring the img button
+// altBtn.addEventListener("onclick", function () {
+//   document.getElementById("img2").style.display = "none";
+//   document.getElementById("img3").style.display = "initial";
+// });
 
 //-----------------------------
 
@@ -35,10 +40,10 @@ altBtn.addEventListener("click", function () {
 image = document.getElementById("img1");
 
 image.addEventListener("mouseover", function () {
-  image.src = "./icon2.png";
+  image.src = "./icons8-moon-and-stars-96.png";
 });
-image.addEventListener("mouseout", function () {
-  image.src = "./icon.png";
+image.addEventListener("mouseout", function (moon) {
+  image.src = "./icons8-sun-96.png";
 });
 
 //----------------------------------
